@@ -14,4 +14,8 @@ const todosData = [
         text: "Clean gecko tank",
         completed: false
     },
-    
+    {
+        id: 4,
+        text: "Mow lawn",
+        completed: true
+    },
