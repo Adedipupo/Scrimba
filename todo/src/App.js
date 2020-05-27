@@ -7,10 +7,7 @@ function App() {
   const todoItems = todosData.map(item => <TodoItem />)
   return (
     <div className="todo-list">
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
+      {todoItems}
     </div>
   );
 }
