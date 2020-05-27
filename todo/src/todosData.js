@@ -24,3 +24,5 @@ const todosData = [
         text: "Catch up on Arrested Development",
         completed: false
     }
+]
+    export default todosData;
