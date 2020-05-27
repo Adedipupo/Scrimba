@@ -1,6 +1,7 @@
 import React from 'react';
 import TodoItem from './components/TodoItem';
 import './App.css';
+import todosData from './todosData';
 
 function App() {
   return (
