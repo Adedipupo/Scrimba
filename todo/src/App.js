@@ -4,6 +4,7 @@ import './App.css';
 import todosData from './todosData';
 
 function App() {
+  const todoItems = todosData.map
   return (
     <div className="todo-list">
       <TodoItem />
