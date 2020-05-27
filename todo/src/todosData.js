@@ -9,4 +9,9 @@ const todosData = [
         text: "Grocery shopping",
         completed: false
     },
+    {
+        id: 3,
+        text: "Clean gecko tank",
+        completed: false
+    },
     
