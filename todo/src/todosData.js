@@ -4,3 +4,9 @@ const todosData = [
         text: "Take out the trash",
         completed: true
     },
+    {
+        id: 2,
+        text: "Grocery shopping",
+        completed: false
+    },
+    
