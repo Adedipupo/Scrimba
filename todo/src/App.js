@@ -12,14 +12,14 @@ class App extends React.Component {
    this.handleClick = this.handleClick.bind(this)
   }
   handleClick(id) {
-
+    console.log('changed' , id)
   }
   render(){
     const todoItems = this.state.todos.map(item => 
     <TodoItem 
       key={item.id} 
       item={item} 
-      
+      handleClick={this.handleClick}
       />)
     return (
       <div className="todo-list">
