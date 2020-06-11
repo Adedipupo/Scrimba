@@ -14,7 +14,9 @@ class App extends React.Component {
   handleClick(id) {
     this.setState( prevState => {
       const updatedTodos = prevState.todos.map( todo => {
-        
+        if (todo.id === id) {
+          
+        }
       })
     })
   }
