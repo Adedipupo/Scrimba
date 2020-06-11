@@ -9,7 +9,7 @@ class App extends React.Component {
     this.state = {
       todos: todosData
     }
-   this.handleClick = this.handleClick.bind(this)
+   this.handleChange = this.handleClick.bind(this)
   }
   handleClick(id) {
     this.setState( prevState => {
@@ -29,7 +29,7 @@ class App extends React.Component {
     <TodoItem 
       key={item.id} 
       item={item} 
-      handleClick={this.handleClick}
+      handleClick={this.handleChange}
       />)
     return (
       <div className="todo-list">
