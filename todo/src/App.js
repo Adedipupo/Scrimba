@@ -19,7 +19,9 @@ class App extends React.Component {
         }
         return todo
       })
-      
+      return {
+        todos : updatedTodos
+      }
     })
   }
   render(){
