@@ -29,7 +29,7 @@ class App extends React.Component {
     <TodoItem 
       key={item.id} 
       item={item} 
-      handleClick={this.handleChange}
+      handleChange={this.handleChange}
       />)
     return (
       <div className="todo-list">
