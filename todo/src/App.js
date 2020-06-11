@@ -9,12 +9,18 @@ class App extends React.Component {
     this.state = {
       todos: todosData
     }
-    handleClick(id) {
+   this.handleClick = this.handleClick.bind(this)
+  }
+  handleClick(id) {
 
-    }
   }
   render(){
-    const todoItems = this.state.todos.map(item => <TodoItem key={item.id} item={item} />)
+    const todoItems = this.state.todos.map(item => 
+    <TodoItem 
+      key={item.id} 
+      item={item} 
+      
+      />)
     return (
       <div className="todo-list">
         {todoItems}
