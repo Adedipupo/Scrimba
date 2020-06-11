@@ -12,7 +12,7 @@ class App extends React.Component {
    this.handleClick = this.handleClick.bind(this)
   }
   handleClick(id) {
-    
+    this.setState( prevS
   }
   render(){
     const todoItems = this.state.todos.map(item => 
