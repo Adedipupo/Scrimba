@@ -13,7 +13,7 @@ const TodoItem = (props) => {
         type="checkbox"
         checked={props.item.completed}
       />
-      <p style={props.item.completed ? }> {props.item.text} </p>
+      <p style={props.item.completed ? completedStyle : null}> {props.item.text} </p>
     </div>
   );
 };
