@@ -2,7 +2,8 @@ import React from "react";
 
 const TodoItem = (props) => {
   const completedStyle = {
-    fontStyle : 'italic'
+    fontStyle : 'italic',
+    color : '#cdcdcd',
   }
   return (
     <div className="todo-item">
