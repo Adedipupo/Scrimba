@@ -1,6 +1,7 @@
 import React from "react";
 
 const TodoItem = (props) => {
+  const completedStyle = 
   return (
     <div className="todo-item">
       <input
