@@ -4,6 +4,8 @@ const TodoItem = (props) => {
   const completedStyle = {
     fontStyle : 'italic',
     color : '#cdcdcd',
+    textDecoration : 'line-through'
+    
   }
   return (
     <div className="todo-item">
