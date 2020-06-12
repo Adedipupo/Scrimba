@@ -5,7 +5,6 @@ const TodoItem = (props) => {
     fontStyle : 'italic',
     color : '#cdcdcd',
     textDecoration : 'line-through'
-    
   }
   return (
     <div className="todo-item">
@@ -14,7 +13,7 @@ const TodoItem = (props) => {
         type="checkbox"
         checked={props.item.completed}
       />
-      <p> {props.item.text} </p>
+      <p style={props.item.completed ? }> {props.item.text} </p>
     </div>
   );
 };
