@@ -19,9 +19,21 @@ class App extends React.Component {
   render(){
   return (
    <form>
-     <input type="text" name="firstName" placeholder="first Name" onChange={this.handleChange}/>
+     <input 
+       type="text" 
+       value={this.state.firstName}
+       name="firstName" 
+       placeholder="first Name" 
+       onChange={this.handleChange}/>
+     
      <br />
-     <input type="text" name="lastName" placeholder="last Name" onChange={this.handleChange} />
+     
+     <input 
+       type="text" 
+       name="lastName" 
+       placeholder="last Name" 
+       onChange={this.handleChange} />
+      
       <h1>{this.state.firstName}</h1> <h1>{this.state.lastName}</h1>
 
    </form>
