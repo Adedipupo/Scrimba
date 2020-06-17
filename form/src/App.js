@@ -10,8 +10,10 @@ class App extends React.Component {
 
     this.handleChange = this.handleChange.bind(this)
   }
-  handleChange(){
-    this
+  handleChange(event){
+    this.setState({
+      firstName : event.target.value
+    })
   }
   render(){
   return (
