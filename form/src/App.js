@@ -9,7 +9,7 @@ class App extends React.Component {
   render(){
   return (
    <form>
-     
+     <input type="text" placeholder="firstname" />
    </form>
   );
   }
