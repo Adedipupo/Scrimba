@@ -4,17 +4,19 @@ import './App.css';
 class App extends React.Component {
   constructor(){
     super()
-    this.state = {}
+    this.state = {
+      firstName : ""
+    }
 
     this.handleChange = this.handleChange.bind(this)
   }
   handleChange(){
-    console.log("yeah baby!!!1")
+    this
   }
   render(){
   return (
    <form>
-     <input type="text" placeholder="firstname" onChange={this.handleChange}/>
+     <input type="text" placeholder="first Name" onChange={this.handleChange}/>
    </form>
   );
   }
