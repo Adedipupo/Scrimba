@@ -19,7 +19,8 @@ class App extends React.Component {
   return (
    <form>
      <input type="text" placeholder="first Name" onChange={this.handleChange}/>
-  <h1>{this.state.firstName}</h1>
+     <input type="text" placeholder="first Name" onChange={this.handleChange} />
+     <h1>{this.state.firstName}</h1>
    </form>
   );
   }
