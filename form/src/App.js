@@ -12,7 +12,7 @@ class App extends React.Component {
     this.handleChange = this.handleChange.bind(this)
   }
   handleChange(event){
-    const [name , value] = event.target
+    const {name , value} = event.target
     this.setState({
       [name] : value
     })
