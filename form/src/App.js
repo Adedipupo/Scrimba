@@ -9,7 +9,7 @@ class App extends React.Component {
     this.handleChange = this.handleChange.bind(this)
   }
   handleChange(){
-
+    console.log("yeah baby!!!1")
   }
   render(){
   return (
