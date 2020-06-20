@@ -8,7 +8,8 @@ class App extends React.Component {
       firstName : "",
       lastName : "",
       isFriendly: true,
-      gender: ""
+      gender: "",
+      favColor: "blue"
     }
 
     this.handleChange = this.handleChange.bind(this)
@@ -81,7 +82,7 @@ class App extends React.Component {
   <h2> You're a {this.state.gender}</h2>
 
 
-  <select>
+  <select value={this.state.favColor}>
     <option></option>
     <option></option>
     <option></option>
