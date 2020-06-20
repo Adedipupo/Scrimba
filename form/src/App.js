@@ -40,7 +40,7 @@ class App extends React.Component {
       
       <h1>{this.state.firstName}</h1> <h1>{this.state.lastName}</h1>
 
-      <textarea></textarea>
+      <textarea value={"1 million dollar"}/>
 
    </form>
   );
