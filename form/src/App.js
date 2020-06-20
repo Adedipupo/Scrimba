@@ -14,7 +14,7 @@ class App extends React.Component {
   }
   handleChange(event){
     const {name , value , type , checked} = event.target
-    this.setState({
+    type === "checked" this.setState({
       [name] : value
     })
   }
