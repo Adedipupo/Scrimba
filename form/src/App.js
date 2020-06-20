@@ -82,11 +82,16 @@ class App extends React.Component {
   <h2> You're a {this.state.gender}</h2>
 
 
-  <select value={this.state.favColor}>
-    <option></option>
-    <option></option>
-    <option></option>
+  <select 
+    value={this.state.favColor}
+    onChange={this.handleChange}
+    >
+    <option value="blue">Blue</option>
+    <option value="green">Green</option>
+    <option value="red">Red</option>
   </select>
+
+  <h2>Your favColor is : {this.state.favColor}</h2>
    </form>
   );
   }
