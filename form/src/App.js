@@ -68,11 +68,11 @@ class App extends React.Component {
 
       <label>
         <input
-          type="checkbox"
-          name="isFriendly"
+          type="radio"
+          name="female"
           checked={this.state.isFriendly}
           onChange={this.handleChange}
-        /> isFriendly ?
+        /> Female ?
     </label>
       
 
