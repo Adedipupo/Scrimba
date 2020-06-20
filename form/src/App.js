@@ -47,6 +47,7 @@ class App extends React.Component {
         type="checkbox"
         name="isFriendly"
         checked={this.state.isFriendly}
+        onChange={this.handleChange}
       />
 
    </form>
