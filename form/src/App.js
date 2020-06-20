@@ -30,14 +30,14 @@ class App extends React.Component {
      
      <br />
 
-   <label>
+   
         <input
           type="text"
           value={this.state.lastName}
           name="lastName"
           placeholder="last Name"
           onChange={this.handleChange} />
-   </label>  
+    
      
 
    
