@@ -46,6 +46,8 @@ class App extends React.Component {
 
       <textarea value={"1 million dollar"}/>
 
+      <br />
+
       <input 
         type="checkbox"
         name="isFriendly"
