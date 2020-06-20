@@ -80,6 +80,12 @@ class App extends React.Component {
       
   <h2> You're a {this.state.gender}</h2>
 
+
+  <select>
+    <option></option>
+    <option></option>
+    <option></option>
+  </select>
    </form>
   );
   }
