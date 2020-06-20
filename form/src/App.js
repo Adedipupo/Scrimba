@@ -36,9 +36,11 @@ class App extends React.Component {
        placeholder="last Name" 
        onChange={this.handleChange} />
 
-       <textarea></textarea>
+   
       
       <h1>{this.state.firstName}</h1> <h1>{this.state.lastName}</h1>
+
+      <textarea></textarea>
 
    </form>
   );
