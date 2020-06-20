@@ -7,7 +7,8 @@ class App extends React.Component {
     this.state = {
       firstName : "",
       lastName : "",
-      isFriendly: true
+      isFriendly: true,
+      gender: ""
     }
 
     this.handleChange = this.handleChange.bind(this)
@@ -77,7 +78,7 @@ class App extends React.Component {
         /> Female ?
     </label>
       
-
+  <h2> You're a {this.state.gender}</h2>
 
    </form>
   );
