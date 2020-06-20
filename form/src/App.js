@@ -45,6 +45,7 @@ class App extends React.Component {
 
       <input 
         type="checkbox"
+        checked={isFriendly}
       />
 
    </form>
