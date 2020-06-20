@@ -62,7 +62,7 @@ class App extends React.Component {
           type="radio"
           name="gender"
           value="male"
-          checked={this.state.isFriendly}
+          checked={this.state.gender === "male"}
           onChange={this.handleChange}
         /> Male
     </label>
@@ -72,7 +72,7 @@ class App extends React.Component {
           type="radio"
           name="gender"
           value="female"
-          checked={this.state.isFriendly}
+          checked={this.state.gender === "female"}
           onChange={this.handleChange}
         /> Female ?
     </label>
