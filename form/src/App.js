@@ -14,7 +14,7 @@ class App extends React.Component {
   }
   handleChange(event){
     const {name , value , type , checked} = event.target
-    type === "checked" ? this.setState({ [name] : checked}) : this.setState({
+    type === "checkbox" ? this.setState({ [name] : checked}) : this.setState({
       [name] : value
     })
   }
@@ -29,13 +29,16 @@ class App extends React.Component {
        onChange={this.handleChange}/>
      
      <br />
+
+   <label>
+        <input
+          type="text"
+          value={this.state.lastName}
+          name="lastName"
+          placeholder="last Name"
+          onChange={this.handleChange} />
+   </label>  
      
-     <input 
-       type="text" 
-       value={this.state.lastName}
-       name="lastName" 
-       placeholder="last Name" 
-       onChange={this.handleChange} />
 
    
       
