@@ -6,7 +6,8 @@ class App extends React.Component {
     super()
     this.state = {
       firstName : "",
-      lastName : ""
+      lastName : "",
+      isFriendly: true
     }
 
     this.handleChange = this.handleChange.bind(this)
