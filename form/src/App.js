@@ -60,7 +60,8 @@ class App extends React.Component {
       <label>
         <input
           type="radio"
-          name="male"
+          name="gender"
+          value="male"
           checked={this.state.isFriendly}
           onChange={this.handleChange}
         /> Male
@@ -69,7 +70,8 @@ class App extends React.Component {
       <label>
         <input
           type="radio"
-          name="female"
+          name="gender"
+          value="female"
           checked={this.state.isFriendly}
           onChange={this.handleChange}
         /> Female ?
