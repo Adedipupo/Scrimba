@@ -85,6 +85,7 @@ class App extends React.Component {
   <select 
     value={this.state.favColor}
     onChange={this.handleChange}
+    name = "favColor" 
     >
     <option value="blue">Blue</option>
     <option value="green">Green</option>
