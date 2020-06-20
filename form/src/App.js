@@ -56,7 +56,26 @@ class App extends React.Component {
           onChange={this.handleChange}
         /> isFriendly ?
     </label>
+
+      <label>
+        <input
+          type="radio"
+          name="male"
+          checked={this.state.isFriendly}
+          onChange={this.handleChange}
+        /> Male
+    </label>
+
+      <label>
+        <input
+          type="checkbox"
+          name="isFriendly"
+          checked={this.state.isFriendly}
+          onChange={this.handleChange}
+        /> isFriendly ?
+    </label>
       
+
 
    </form>
   );
